@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Fabian Pimminger</string>
+	<key>Builder Version</key>
+	<string>7534.48.3</string>
+	<key>CFBundleDisplayName</key>
+	<string>Facebook Chat Sound Changer</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.fabianpimminger.facebookchatsoundchanger</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.9</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>script.js</string>
+			</array>
+		</dict>
+		<key>Whitelist</key>
+		<array>
+			<string>http://*.facebook.com/*</string>
+			<string>https://*.facebook.com/*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Changes the annoying Facebook Chat alert</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.facebook.com</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://www.fabianpimminger.com/safari_extensions/manifest.plist</string>
+	<key>Website</key>
+	<string>http://www.fabianpimminger.cm</string>
+</dict>
+</plist>
